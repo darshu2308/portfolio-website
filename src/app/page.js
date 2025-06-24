@@ -273,8 +273,8 @@ export default function Home() {
     {/* Contact */}
     <div>
       <h4 className="font-semibold mb-3 text-lg">Get In Touch</h4>
-      <p className="text-sm text-gray-600 mb-2">Email: darshan@example.com</p>
-      <p className="text-sm text-gray-600">Location: Ahmedabad, India</p>
+      <p className="text-sm text-gray-600 mb-2">Email: darshupatel948@gmail.com</p>
+      <p className="text-sm text-gray-600">Location: Himmatnagar, India</p>
     </div>
   </div>
 
