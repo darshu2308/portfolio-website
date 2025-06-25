@@ -85,7 +85,7 @@ export default function Home() {
             <h3 className="text-sm uppercase text-[#808000] tracking-widest">My Introduction</h3>
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-md leading-relaxed">
-              I&apos;m Darshan Patel, a frontend developer from Himmatnagr. I enjoy building responsive and user-friendly websites.
+              Hello , Darshan Patel, a frontend developer from Himmatnagr. I enjoy building responsive and user-friendly websites.
               Skilled in HTML, CSS, and JavaScript with hands-on project experience. Created e-commerce sites and personal portfolios.
               I&apos;m passionate about clean UI and mobile-first design. Looking to grow in a tech-driven team and learn more every day.
               <br /><br /><span className="italic text-[#6B7280]">“Design is intelligence made visible. Code brings it to life.”</span>
