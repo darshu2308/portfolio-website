@@ -126,7 +126,7 @@ export default function Home() {
           ].map((skill, i) => (
             <div key={i} className="bg-white hover:shadow-xl dark:bg-[#e5e7eb] p-6 rounded-2xl border border-gray-200 shadow transition-transform duration-300 hover:scale-105">
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[#F3F4F6] flex items-center justify-center shadow-inner">
-                <img src={skill.icon} alt={skill.name} className="h-10" />
+                <Image src={skill.icon} alt={skill.name} className="h-10" />
               </div>
               <p className="font-semibold text-sm text-[#111827]">{skill.name}</p>
             </div>
