@@ -213,7 +213,7 @@ export default function Home() {
           <h2 className="text-4xl font-extrabold tracking-tight mb-6">
             <span className="inline-block bg-gradient-to-r from-[#808000] to-[#6c6c00] text-transparent bg-clip-text">Connect With Me</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-12">Have a project in mind or just want to say hi? Fill out the form below and I'll get back to you as soon as possible.</p>
+          <p className="text-gray-600 max-w-2xl mx-auto mb-12">Have a project in mind or just want to say hi? Fill out the form below and I will get back to you as soon as possible.</p>
 
           <div className="bg-white border border-gray-200 shadow-xl rounded-xl p-8 md:p-10">
             <form className="space-y-6">
