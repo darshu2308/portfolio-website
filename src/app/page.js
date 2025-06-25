@@ -85,9 +85,9 @@ export default function Home() {
             <h3 className="text-sm uppercase text-[#808000] tracking-widest">My Introduction</h3>
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-md leading-relaxed">
-              Hello , Darshan Patel, a frontend developer from Himmatnagr. I enjoy building responsive and user-friendly websites.
+              I am  , Darshan Patel, a frontend developer from Himmatnagr. I enjoy building responsive and user-friendly websites.
               Skilled in HTML, CSS, and JavaScript with hands-on project experience. Created e-commerce sites and personal portfolios.
-              I&apos;m passionate about clean UI and mobile-first design. Looking to grow in a tech-driven team and learn more every day.
+              I am passionate about clean UI and mobile-first design. Looking to grow in a tech-driven team and learn more every day.
               <br /><br /><span className="italic text-[#6B7280]">“Design is intelligence made visible. Code brings it to life.”</span>
             </p>
             <ul className="text-sm space-y-1">
@@ -203,7 +203,7 @@ export default function Home() {
       <section id="contact" className="bg-white py-24 px-6 text-[#1c1f26] relative">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold tracking-tight mb-6">
-            <span className="inline-block bg-gradient-to-r from-[#808000] to-[#6c6c00] text-transparent bg-clip-text">Let's Connect</span>
+            <span className="inline-block bg-gradient-to-r from-[#808000] to-[#6c6c00] text-transparent bg-clip-text">Connect With Me</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-12">Have a project in mind or just want to say hi? Fill out the form below and I'll get back to you as soon as possible.</p>
 
