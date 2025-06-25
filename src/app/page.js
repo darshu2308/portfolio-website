@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap'
+import Image from 'next/image'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -69,9 +70,11 @@ export default function Home() {
 
         <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0" ref={heroImageRef}>
           <div className="w-72 h-72 rounded-full overflow-hidden shadow-lg border-4 border-gray-300">
-            <img
+            <Image
               src="/p1.png"
               alt="Ramesh Kannan"
+              width={200}
+              height={200}
               className="w-full h-full object-cover"
             />
           </div>
@@ -139,8 +142,10 @@ export default function Home() {
 
             {/* Project 1 */}
             <div className="group relative bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
-              <img
+              <Image
                 src="/p2.png"
+                width={200}
+                height={200}
                 alt="Trendy Threads"
                 className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -157,9 +162,11 @@ export default function Home() {
 
             {/* Project 2 */}
             <div className="group relative bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
-              <img
+               <Image
                 src="/p3.png"
                 alt="Tanmay Cetras"
+                width={190}
+                height={190}
                 className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="p-6">
