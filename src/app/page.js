@@ -126,7 +126,8 @@ export default function Home() {
           ].map((skill, i) => (
             <div key={i} className="bg-white hover:shadow-xl dark:bg-[#e5e7eb] p-6 rounded-2xl border border-gray-200 shadow transition-transform duration-300 hover:scale-105">
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[#F3F4F6] flex items-center justify-center shadow-inner">
-                <Image src={skill.icon} alt={skill.name} className="h-10" />
+                <Image width={200}
+                  height={200} src={skill.icon} alt={skill.name} className="h-10" />
               </div>
               <p className="font-semibold text-sm text-[#111827]">{skill.name}</p>
             </div>
@@ -162,7 +163,7 @@ export default function Home() {
 
             {/* Project 2 */}
             <div className="group relative bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transition">
-               <Image
+              <Image
                 src="/p3.png"
                 alt="Tanmay Cetras"
                 width={190}
